@@ -10,6 +10,7 @@ app.set("view engine", "html");
 
 app.use("/assets", express.static("app/assets"));
 app.use("/lib", express.static("bower_components"));
+app.use("/depnunkei", express.static("depnunkei"));
 
 app.get("/", function(req, res) {
   res.render("index", {data: data});

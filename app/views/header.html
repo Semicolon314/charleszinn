@@ -1,11 +1,13 @@
 <div id="header" onselectstart="return false;">
-  <span id="heading">
-    <a href="#">Charles Zinn</a>
-  </span>
-  <span id="links">
-    <a ng-class="{current: page=='about'}" href="#">About</a>
-    <a ng-class="{current: page.substring(0, 7) == 'project'}" href="#projects">Projects</a>
-    <a ng-class="{current: page=='contact'}" href="#contact">Contact</a>
-  </span>
-  <hr>
+  <div id="headerContent">
+    <span id="heading">
+      <a href="#">Charles Zinn</a>
+    </span>
+    <span id="links">
+      <a ng-class="{current: page=='about'}" href="#">About</a>
+      <a ng-class="{current: page.substring(0, 7) == 'project'}" href="#projects">Projects</a>
+      <a ng-class="{current: page=='contact'}" href="#contact">Contact</a>
+    </span>
+  </div>
 </div>
+<hr>

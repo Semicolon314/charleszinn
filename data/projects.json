@@ -1,18 +1,18 @@
 [
   {
     "name": "Botscape",
-    "thumbnail": "tn72.png",
-    "screenshot": "mafia_screenshot.png",
-    "shortDesc": "Winning AI-based Hack the North entry.",
+    "thumbnail": "botscape_thumbnail.png",
+    "screenshot": "botscape_screenshot.png",
+    "shortDesc": "Winning AI-based Hack the North entry. This is some really long text that should wrap around.",
     "description": [
-      "Insert description here."
+      "Based on past forrays into the realm of AI challenges, blah."
     ],
     "language": "NodeJS",
     "date": "September 2014"
   },
   {
     "name": "Mafia",
-    "thumbnail": "tn72.png",
+    "thumbnail": "mafia_thumbnail.png",
     "screenshot": "mafia_screenshot.png",
     "shortDesc": "A simple webapp for the party game.",
     "description": [
@@ -27,8 +27,8 @@
   },
   {
     "name": "Spleef AI Challenge",
-    "thumbnail": "tn72.png",
-    "screenshot": "mafia_screenshot.png",
+    "thumbnail": "spleefai_thumbnail.png",
+    "screenshot": "spleefai_screenshot.png",
     "shortDesc": "Inspired by the UW CS club AI challenges.",
     "description": [
       "In 2011, I participated in the <a href='http://ants.aichallenge.org/'>Ants AI Challenge</a>, run by the University of Waterloo's Computer Science club.",
@@ -40,8 +40,8 @@
   },
   {
     "name": "Depnunkei",
-    "thumbnail": "tn72.png",
-    "screenshot": "mafia_screenshot.png",
+    "thumbnail": "depnunkei_thumbnail.png",
+    "screenshot": "depnunkei_screenshot.png",
     "shortDesc": "Stock trading game with randomized stocks.",
     "description": [
       "Test"
@@ -51,8 +51,8 @@
   },
   {
     "name": "Condi",
-    "thumbnail": "thumbnail.png",
-    "screenshot": "mafia_screenshot.png",
+    "thumbnail": "condi_thumbnail.png",
+    "screenshot": "condi_screenshot.png",
     "shortDesc": "A simple roguelike made for a casual 7DRL.",
     "description": [
       "Test"

@@ -3,6 +3,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="lib/angular/angular.js"></script>
     <script src="lib/angular-animate/angular-animate.js"></script>
     <script src="assets/js/app.js"></script>
@@ -10,7 +11,9 @@
     <title>Charles Zinn</title>
   </head>
   <body ng-controller="PageCtrl">
-    <% include header.html %>
-    <% include contents.html %>
+    <div id="container">
+      <% include header.html %>
+      <% include contents.html %>
+    </div>
   </body>
 </html>

@@ -22,11 +22,12 @@
 </div>
 <% data.projects.forEach(function(proj, index) { %>
 <div class="page" ng-class="[animDir]" ng-show="page == 'project/<%= index %>'">
-  <img class="screenshot" src="assets/images/<%= proj.screenshot %>">
+  <a href="#projects" style="float:right; position: relative; top: 5px;">Back to projects</a>
   <h1><%= proj.name %></h1>
   <% proj.description.forEach(function(paragraph) { %>
     <p><%- paragraph %></p>
   <% }) %>
+  <img class="screenshot" src="assets/images/<%= proj.screenshot %>">
 </div>
 <% }) %>
 <div class="page" ng-class="[animDir]" ng-show="page == 'contact'">
