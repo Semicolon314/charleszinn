@@ -1,0 +1,11 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "description": "A personal website for Charles Zinn.",
+  "main": "index.js",
+  "author": "Charles Zinn",
+  "dependencies": {
+    "express": "^4.10.6",
+    "ejs": "^1.0.0"
+  }
+}

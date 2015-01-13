@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Botscape",
+    "thumbnail": "tn72.png",
+    "screenshot": "mafia_screenshot.png",
+    "shortDesc": "Winning AI-based Hack the North entry.",
+    "description": [
+      "Insert description here."
+    ],
+    "language": "NodeJS",
+    "date": "September 2014"
+  },
+  {
+    "name": "Mafia",
+    "thumbnail": "tn72.png",
+    "screenshot": "mafia_screenshot.png",
+    "shortDesc": "A simple webapp for the party game.",
+    "description": [
+      "Mafia is a popular party game. A small number of players are the mafia, and their goal is to eliminate all other players. The rest of the players are villages, who want to lynch the mafia, but they don't know who the mafia are. There are a few special villager roles as well.",
+      "The mafia anonymously assassinate one villager each night. This requires that there be a game master to manage player interactions, and the game master can't participate in the game.",
+      "I created a simple, minimalistic web app that takes the place of the game master. It still requires one of the players to the moderator, but the moderator can play like any other player.",
+      "There are existing websites that do this, but they overcomplicate the rules to faciliate different variations. Additionally, not requiring accounts is a huge boon to adoptance.",
+      "The web app can also be used to play over the internet when paired with an external communication platform, like Skype or Google Hangouts."
+    ],
+    "language": "NodeJS",
+    "date": "November 2014"
+  },
+  {
+    "name": "Spleef AI Challenge",
+    "thumbnail": "tn72.png",
+    "screenshot": "mafia_screenshot.png",
+    "shortDesc": "Inspired by the UW CS club AI challenges.",
+    "description": [
+      "In 2011, I participated in the <a href='http://ants.aichallenge.org/'>Ants AI Challenge</a>, run by the University of Waterloo's Computer Science club.",
+      "I eagerly awaited the next AI challenge, but it never came. In my last year of high school, I took matters into my own hands, and created Spleef AI Challenge along with several friends.",
+      "We attempted to design the challenge at the level of high school students. However, we overshot the difficulty level; the game has a large branching factor and games can be hundreds of turns long."
+    ],
+    "language": "Python",
+    "date": "March 2014"
+  },
+  {
+    "name": "Depnunkei",
+    "thumbnail": "tn72.png",
+    "screenshot": "mafia_screenshot.png",
+    "shortDesc": "Stock trading game with randomized stocks.",
+    "description": [
+      "Test"
+    ],
+    "language": "Javascript",
+    "date": "January 2014"
+  },
+  {
+    "name": "Condi",
+    "thumbnail": "thumbnail.png",
+    "screenshot": "mafia_screenshot.png",
+    "shortDesc": "A simple roguelike made for a casual 7DRL.",
+    "description": [
+      "Test"
+    ],
+    "language": "Java",
+    "date": "September 2012"
+  }
+]

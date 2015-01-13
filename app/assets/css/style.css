@@ -1,0 +1,287 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:         linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+.page > p, .projectPage p {
+  margin: 4px 0px;
+}
+
+/* PAGE STYLES */
+.page {
+  position: absolute;
+  width: 800px;
+  min-width: 800px;
+  left: 50%;
+  margin: 0;
+  margin-left: -400px;
+  padding: 10px 0px;
+  font-size:16px;
+}
+
+.page h1 {
+  font-size:24px;
+}
+
+.page h2 {
+  font-size:20px;
+}
+
+.page a {
+  color:#002366;
+}
+
+/* HEADER STYLES */
+#header {
+  position: relative;
+  top: 0px;
+  margin: 0 auto;
+  width: 800px;
+  min-width: 800px;
+  text-align:left;
+  color: #000000;
+}
+
+#header a {
+  text-decoration:none;
+  color: #000000;
+}
+
+#heading, h1 {
+  font-size:40px;
+  padding: 0;
+}
+
+#links {
+  font-size:20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: right;
+  float: right;
+}
+
+#links a {
+  padding:0px 5px;
+}
+
+#links a:hover {
+  text-decoration:underline;
+}
+
+#links a.current {
+  text-decoration:underline;
+}
+
+/* PROJECT STYLES */
+#projectViewer {
+  position: relative;
+  margin: 10px 0px;
+  height: 730px;
+}
+
+#projectList {
+  width: 100%;
+}
+
+#projectList > div {
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+#projectList > div:nth-child(even) {
+  background: #EEEEEE;
+}
+
+#projectList > div:hover, #projectList .selected {
+  background: #DDDDDD!important;
+}
+
+#projectList > div .lang {
+  font-size: 14px;
+}
+#projectList > div .date {
+  font-size: 14px;
+  float: right;
+}
+
+#projectList > div img {
+  float: right;
+  width: 85px;
+  height: 85px;
+  margin-left: 5px;
+}
+
+.projectPage {
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  bottom: -1px;
+  left: 301px;
+  padding: 5px 10px;
+}
+
+.page .screenshot {
+  width: 100%;
+  height: auto;
+  margin: -10px 0px;
+  margin-bottom: 0px;
+}
+
+/* PAGE ANIMATIONS */
+.to-left.ng-hide-add {
+  -webkit-animation: 0.5s fadeOutRight ease;
+  animation: 0.5s fadeOutRight ease;
+}
+
+.to-left.ng-hide-remove {
+  -webkit-animation: 0.5s fadeInLeft ease;
+  animation: 0.5s fadeInLeft ease;
+}
+
+.to-right.ng-hide-add {
+  -webkit-animation: 0.5s fadeOutLeft ease;
+  animation: 0.5s fadeOutLeft ease;
+}
+
+.to-right.ng-hide-remove {
+  -webkit-animation: 0.5s fadeInRight ease;
+  animation: 0.5s fadeInRight ease;
+}
+
+/* CUSTOM ANIMATIONS */
+/* Adapted from Animate.css animations with the same names
+ * Percentage has been reduced so that pages don't sprint to
+ * and from the other end of the universe as they come and go.
+ */
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(25%, 0, 0);
+            transform: translate3d(25%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(25%, 0, 0);
+            transform: translate3d(25%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@-webkit-keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(25%, 0, 0);
+            transform: translate3d(25%, 0, 0);
+  }
+}
+
+@keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(25%, 0, 0);
+            transform: translate3d(25%, 0, 0);
+  }
+}
+
+@-webkit-keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
+  }
+}
+
+@keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
+  }
+}
+
+/*
+Open Sans
+Open Baskerville
+Jura
+Crimson Text
+Arvo Font Family
+*/

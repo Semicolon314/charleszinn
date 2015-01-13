@@ -1,0 +1,35 @@
+<div class="page" ng-class="[animDir]" ng-show="page == 'about'">
+  <% data.about.content.forEach(function(paragraph) { %>
+    <p><%- paragraph %></p>
+  <% }) %>
+</div>
+<div class="page" ng-class="[animDir]" ng-show="page == 'projects'">
+  <p>
+    This is a list of projects I've worked on. The code for most of them is available from my GitHub profile.
+  </p>
+  <div id="projectList">
+    <% data.projects.forEach(function(proj, index) { %>
+    <div ng-click="setPage('project/<%= index %>')">
+      <img src="assets/images/<%= proj.thumbnail %>">
+      <b><%= proj.name %></b>
+      <p><%= proj.shortDesc %></p>
+      <br>
+      <span class="date"><%= proj.date %></span>
+      <span class="lang"><%= proj.language %></span>
+    </div>
+    <% }) %>
+  </div>
+</div>
+<% data.projects.forEach(function(proj, index) { %>
+<div class="page" ng-class="[animDir]" ng-show="page == 'project/<%= index %>'">
+  <img class="screenshot" src="assets/images/<%= proj.screenshot %>">
+  <h1><%= proj.name %></h1>
+  <% proj.description.forEach(function(paragraph) { %>
+    <p><%- paragraph %></p>
+  <% }) %>
+</div>
+<% }) %>
+<div class="page" ng-class="[animDir]" ng-show="page == 'contact'">
+  <h1>Contact</h1>
+  <p>This is some test text.</p>
+</div>
