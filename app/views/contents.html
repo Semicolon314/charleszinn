@@ -31,6 +31,7 @@
 </div>
 <% }) %>
 <div class="page" ng-class="[animDir]" ng-show="page == 'contact'">
-  <h1>Contact</h1>
-  <p>This is some test text.</p>
+  <% data.contact.content.forEach(function(paragraph) { %>
+    <p><%- paragraph %></p>
+  <% }) %>
 </div>

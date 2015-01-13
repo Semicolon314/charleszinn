@@ -148,19 +148,9 @@ hr {
   margin-left: 5px;
 }
 
-.projectPage {
-  position: absolute;
-  right: 0px;
-  top: 1px;
-  bottom: -1px;
-  left: 301px;
-  padding: 5px 10px;
-}
-
 .page .screenshot {
   width: 100%;
   height: auto;
-  margin-bottom: 0px;
 }
 
 /* PAGE ANIMATIONS */

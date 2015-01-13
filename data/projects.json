@@ -5,9 +5,12 @@
     "screenshot": "botscape_screenshot.png",
     "shortDesc": "Winning AI-based Hack the North entry. This is some really long text that should wrap around.",
     "description": [
-      "Based on past forrays into the realm of AI challenges, blah."
+      "At the first ever Hack the North in September 2014, my teammates and I decided to take the idea of an Arificial Intelligence challenge further than it has ever been taken before.",
+      "Over the course of 36 hours, we created a massively-multiplayer online game... for robots. Players of Botscape would write programs to collect resources and fight other bots for dominance.",
+      "Programming challenges like these are a fun way to practice your coding skills while satisfying your competitive drive.",
+      "Due to security and scalability issues, Botscape is not currently available for play online. However, you can check out Botscape on <a href='http://challengepost.com/software/botscape'>ChallengePost</a> or watch the <a href='https://www.youtube.com/watch?v=b_m1uPYl8UM'>presentation I gave at Hack the North</a>."
     ],
-    "language": "NodeJS",
+    "language": "Node.js",
     "date": "September 2014"
   },
   {
@@ -20,20 +23,24 @@
       "The mafia anonymously assassinate one villager each night. This requires that there be a game master to manage player interactions, and the game master can't participate in the game.",
       "I created a simple, minimalistic web app that takes the place of the game master. It still requires one of the players to the moderator, but the moderator can play like any other player.",
       "There are existing websites that do this, but they overcomplicate the rules to faciliate different variations. Additionally, not requiring accounts is a huge boon to adoptance.",
-      "The web app can also be used to play over the internet when paired with an external communication platform, like Skype or Google Hangouts."
+      "The web app can also be used to play over the internet when paired with an external communication platform, like Skype or Google Hangouts.",
+      "You can view the source code for Mafia (and run your own server) on <a href='https://github.com/Semicolon314/mafia'>GitHub</a>."
     ],
-    "language": "NodeJS",
+    "language": "Node.js",
     "date": "November 2014"
   },
   {
     "name": "Spleef AI Challenge",
     "thumbnail": "spleefai_thumbnail.png",
     "screenshot": "spleefai_screenshot.png",
-    "shortDesc": "Inspired by the UW CS club AI challenges.",
+    "shortDesc": "Inspired by the UW Computer Science club AI challenges.",
     "description": [
       "In 2011, I participated in the <a href='http://ants.aichallenge.org/'>Ants AI Challenge</a>, run by the University of Waterloo's Computer Science club.",
       "I eagerly awaited the next AI challenge, but it never came. In my last year of high school, I took matters into my own hands, and created Spleef AI Challenge along with several friends.",
-      "We attempted to design the challenge at the level of high school students. However, we overshot the difficulty level; the game has a large branching factor and games can be hundreds of turns long."
+      "We attempted to design the challenge at the level of high school students. However, we overshot the difficulty level; the game has a large branching factor and games can be hundreds of turns long.",
+      "Spleef AI Challenge is based on the Minecraft minigame Spleef, in which players attempt to break the blocks under other players' feet and try to be the last one standing on the platform. Our implementation also has the tiebreaking condition that if nobody can reach each other, the player with the largest accessible area wins.",
+      "The fairly simple rules result in some surprisingly emergent gameplay, as bots try to balance claiming territory with safety.",
+      "You can check out <a href='https://spleefchallenge.com'>Spleef AI Challenge</a> in action on its website."
     ],
     "language": "Python",
     "date": "March 2014"
@@ -44,9 +51,11 @@
     "screenshot": "depnunkei_screenshot.png",
     "shortDesc": "Stock trading game with randomized stocks.",
     "description": [
-      "Test"
+      "The computer science club at my school ran a two-week long idle game challenge. An idle game is a game in which most of your time is spent waiting; a common example is Cookie Clicker.",
+      "My project was Depnunkei, a stock-trading game written in HTML5 and JavaScript. The stocks are unique and randomly generated each game, and more enter the market as stocks go bankrupt.",
+      "Try playing <a href='/depnunkei'>Depnunkei</a> and see how much money you can make. You can also view the source code on <a href='https://github.com/Semicolon314/Depnunkei'>GitHub</a>."
     ],
-    "language": "Javascript",
+    "language": "JavaScript",
     "date": "January 2014"
   },
   {
@@ -55,7 +64,9 @@
     "screenshot": "condi_screenshot.png",
     "shortDesc": "A simple roguelike made for a casual 7DRL.",
     "description": [
-      "Test"
+      "Condi was my entry to a casual 7DRL (7-day roguelike) with some friends. A roguelike is a text-based game which usually involved exploring a dungeon and fighting monsters.",
+      "Condi features random dungeon generation, randomly generated items with special effects, and absolutely no balance. The dungeons gradually get harder as your character gains levels.",
+      "You can view the source code for Condi on <a href='https://github.com/Semicolon314/Condi'>GitHub</a>."
     ],
     "language": "Java",
     "date": "September 2012"
