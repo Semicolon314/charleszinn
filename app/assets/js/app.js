@@ -39,6 +39,8 @@ angular.module("ZinnSite", ["ngAnimate"])
 
       $scope.page = page;
       $scope.$apply();
+
+      ga("send", "pageview", "/" + page);
     };
 
     $scope.setProject = function(project) {

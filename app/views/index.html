@@ -3,17 +3,9 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <script src="lib/angular/angular.js"></script>
     <script src="lib/angular-animate/angular-animate.js"></script>
-    <script src="assets/js/app.js"></script>
-
-    <title>Charles Zinn</title>
-  </head>
-  <body ng-controller="PageCtrl">
-    <div id="container">
-      <% include header.html %>
-      <% include contents.html %>
-    </div>
 
     <!-- Google Analytics -->
     <script>
@@ -25,5 +17,15 @@
       ga('create', 'UA-58512048-1', 'auto');
       ga('send', 'pageview');
     </script>
+
+    <script src="assets/js/app.js"></script>
+
+    <title>Charles Zinn</title>
+  </head>
+  <body ng-controller="PageCtrl">
+    <div id="container">
+      <% include header.html %>
+      <% include contents.html %>
+    </div>
   </body>
 </html>
