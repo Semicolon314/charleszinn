@@ -27,8 +27,10 @@ hr {
 
 #container {
   width: 100%;
-  min-width: 800px;
+  min-width: 810px;
   position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 .page > p, .projectPage p {
