@@ -1,9 +1,23 @@
 [
   {
+    "name": "Fortuit",
+    "thumbnail": "fortuit_thumbnail.png",
+    "screenshot": "fortuit_screenshot.png",
+    "shortDesc": "Prediction tracker, entry to PennApps Winter 2015.",
+    "description": [
+      "Fortuit is inspired by something called overconfidence bias: when we make predictions about the future, we tend to be really optimistic. More generally, it's hard to make numerically precise predictions: we overestimate and underestimate by large margins.",
+      "Fortuit aims to improve prediction-making by letting you track your predictions. This gives you the benefit of hindsight, and you can use the quantified analysis of your predictions to improve your predictions in the future.",
+      "Though it didn't win any prizes at PennApps, I'm really happy with the way it turned out. The interface is sleek and it works great on mobile.",
+      "You can try it out at <a href='http://fortuit.tk'>fortuit.tk</a>, view the source code on <a href='https://github.com/Semicolon314/fortuit'>GitHub</a>, or take a look at the <a href='http://challengepost.com/software/fortuit'>ChallengePost</a> submission."
+    ],
+    "language": "MEAN Stack",
+    "date": "January 2015"
+  },
+  {
     "name": "Botscape",
     "thumbnail": "botscape_thumbnail.png",
     "screenshot": "botscape_screenshot.png",
-    "shortDesc": "Winning AI-based Hack the North entry. This is some really long text that should wrap around.",
+    "shortDesc": "Winning AI-based entry to Hack the North 2014.",
     "description": [
       "At the first ever Hack the North in September 2014, my teammates and I decided to take the idea of an Arificial Intelligence challenge further than it has ever been taken before.",
       "Over the course of 36 hours, we created a massively-multiplayer online game... for robots. Players of Botscape would write programs to collect resources and fight other bots for dominance.",

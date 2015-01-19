@@ -135,7 +135,7 @@ hr {
 
 #projectList > div .lang {
   position: absolute;
-  bottom: 0px;
+  bottom: 5px;
 }
 #projectList > div .date {
   position: absolute;
