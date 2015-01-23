@@ -50,6 +50,10 @@ angular.module("ZinnSite", ["ngAnimate"])
       $scope.project = project;
     };
 
+    $scope.resumeClick = function() {
+      ga("send", "pageview", "/resume");
+    };
+
     window.onhashchange = function() {
       var page = location.hash.substring(1);
       if(page === "")
