@@ -33,9 +33,9 @@
     "screenshot": "mafia_screenshot.png",
     "shortDesc": "A simple webapp for the party game.",
     "description": [
-      "Mafia is a popular party game. A small number of players are the mafia, and their goal is to eliminate all other players. The rest of the players are villages, who want to lynch the mafia, but they don't know who the mafia are. There are a few special villager roles as well.",
-      "The mafia anonymously assassinate one villager each night. This requires that there be a game master to manage player interactions, and the game master can't participate in the game.",
-      "I created a simple, minimalistic web app that takes the place of the game master. It still requires one of the players to the moderator, but the moderator can play like any other player.",
+      "Mafia is a popular party game. A small number of players are the mafia, and their goal is to eliminate all other players. The rest of the players are villagers, who want to lynch the mafia, but they don't know who the mafia are. There are a few special villager roles as well.",
+      "The mafia anonymously assassinate one villager each night. This requires one of the players to be a game master to manage player interactions, and the game master can't participate in the game.",
+      "I created a simple, minimalistic web app that takes the place of the game master. It still requires one of the players to be the moderator, but the moderator can play like any other player.",
       "There are existing websites that do this, but they overcomplicate the rules to faciliate different variations. Additionally, not requiring accounts is a huge boon to adoptance.",
       "The web app can also be used to play over the internet when paired with an external communication platform, like Skype or Google Hangouts.",
       "You can view the source code for Mafia (and run your own server) on <a href='https://github.com/Semicolon314/mafia'>GitHub</a>."
