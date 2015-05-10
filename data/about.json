@@ -1,6 +1,6 @@
 {
   "content": [
     "I'm a first year Software Engineering student at the University of Waterloo.",
-    "I'm currently looking for a co-op job for May–August 2015. Take a look at my <a href='assets/CharlesZinn.pdf' ng-click='resumeClick()'>current résumé</a>."
+    "I'm currently working at A Thinking Ape in Vancouver, BC. If you're interested in hiring me from January-April 2016, take a look at my <a href='assets/CharlesZinn.pdf' ng-click='resumeClick()'>current résumé</a>."
   ]
 }
