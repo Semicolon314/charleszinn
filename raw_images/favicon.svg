@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg3001"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="C:\Users\Charles\Pictures\favicon.png"
+   inkscape:export-xdpi="22.5"
+   inkscape:export-ydpi="22.5">
+  <defs
+     id="defs3003">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3874">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 139.95686,100.32444 -42.924135,-51.992608 -73.152397,3.929674 -34.762503,67.106744 12.9981534,80.70946 70.4318536,24.18261 51.690328,-28.71685 -27.81,-21.76435 -6.347936,1.09578 -7.972704,-5.17659 z"
+         id="path3876"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3874-1">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 139.95686,100.32444 -42.924135,-51.992608 -73.152397,3.929674 -34.762503,67.106744 12.9981534,80.70946 70.4318536,24.18261 51.690328,-28.71685 -27.81,-21.76435 -6.347936,1.09578 -7.972704,-5.17659 z"
+         id="path3876-7"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.7458746"
+     inkscape:cx="363.25645"
+     inkscape:cy="98.662139"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3882"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3006">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Vector"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3032"
+       width="111.31512"
+       height="96.028877"
+       x="-128.16916"
+       y="58.454872" />
+    <rect
+       style="fill:#002366;fill-opacity:1;stroke:none"
+       id="rect3034"
+       width="256"
+       height="256"
+       x="0"
+       y="0"
+       ry="32"
+       rx="32" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Text"
+     style="display:inline">
+    <g
+       transform="matrix(1.0977045,0,0,1.0977045,-5.5681057,-15.799127)"
+       style="display:inline"
+       id="g3882">
+      <text
+         transform="translate(19.648371,-4.9999993)"
+         clip-path="url(#clipPath3874-1)"
+         sodipodi:linespacing="125%"
+         id="text3805"
+         y="208.52638"
+         x="-9.5976248"
+         style="font-size:202.63851929px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         xml:space="preserve"><tspan
+           y="208.52638"
+           x="-9.5976248"
+           id="tspan3807"
+           sodipodi:role="line">C</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3813"
+         y="206"
+         x="99.597343"
+         style="font-size:209.54978943px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           y="206"
+           x="99.597343"
+           id="tspan3815"
+           sodipodi:role="line">Z</tspan></text>
+    </g>
+  </g>
+</svg>
