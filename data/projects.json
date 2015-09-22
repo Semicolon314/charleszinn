@@ -1,5 +1,19 @@
 [
   {
+    "name": "Liar's Dice",
+    "thumbnail": "liarsdice_thumbnail.png",
+    "screenshot": "liarsdice_screenshot.png",
+    "shortDesc": "Cryptographically fair dice game, entry to Hack the North 2015",
+    "description": [
+      "Liar's Dice is a fun dice game most famous for a minute-long scene in Pirates of the Caribbean: Dead Man's Chest. After doing some reading about mental poker, I devised a commitment protocol that would allow Liar's Dice to be played without a trusted server managing the dice rolling.",
+      "Originally, I implemented my protocol in the form of a simple command-line Python app. At Hack the North, I rewrote the entire app with a far more usable JavaScript frontend.",
+      "The server uses Python and Redis and is currently running on Google Cloud Platform. By a back-of-an-envelope calculation, the server should support at least 1500 concurrent users on a single free-tier server. The implementation also supports multiple servers.",
+      "You can play Liar's Dice at <a href='http://liarsdice.co'>liarsdice.co</a>, view the source code on <a href='https://github.com/Semicolo314/liars-dice>GitHub</a>, or take a look at the <a href='http://devpost.com/software/liars-dice'>DevPost</a> submission."
+    ],
+    "language": "Python",
+    "date": "September 2015"
+  },
+  {
     "name": "Fortuit",
     "thumbnail": "fortuit_thumbnail.png",
     "screenshot": "fortuit_screenshot.png",
@@ -8,7 +22,7 @@
       "Fortuit is inspired by something called overconfidence bias: when we make predictions about the future, we tend to be really optimistic. More generally, it's hard to make numerically precise predictions: we overestimate and underestimate by large margins.",
       "Fortuit aims to improve prediction-making by letting you track your predictions. This gives you the benefit of hindsight, and you can use the quantified analysis of your predictions to improve your predictions in the future.",
       "Though it didn't win any prizes at PennApps, I'm really happy with the way it turned out. The interface is sleek and it works great on mobile.",
-      "You can try it out at <a href='http://fortuit.tk'>fortuit.tk</a>, view the source code on <a href='https://github.com/Semicolon314/fortuit'>GitHub</a>, or take a look at the <a href='http://challengepost.com/software/fortuit'>ChallengePost</a> submission."
+      "You can try it out at <a href='http://fortuit.tk'>fortuit.tk</a>, view the source code on <a href='https://github.com/Semicolon314/fortuit'>GitHub</a>, or take a look at the <a href='http://devpost.com/software/fortuit'>DevPost</a> submission."
     ],
     "language": "MEAN Stack",
     "date": "January 2015"
@@ -22,7 +36,7 @@
       "At the first ever Hack the North in September 2014, my teammates and I decided to take the idea of an Arificial Intelligence challenge further than it has ever been taken before.",
       "Over the course of 36 hours, we created a massively-multiplayer online game... for robots. Players of Botscape would write programs to collect resources and fight other bots for dominance.",
       "Programming challenges like these are a fun way to practice your coding skills while satisfying your competitive drive.",
-      "Due to security and scalability issues, Botscape is not currently available for play online. However, you can check out Botscape on <a href='http://challengepost.com/software/botscape'>ChallengePost</a> or watch the <a href='https://www.youtube.com/watch?v=b_m1uPYl8UM'>presentation I gave at Hack the North</a>."
+      "Due to security and scalability issues, Botscape is not currently available for play online. However, you can check out Botscape on <a href='http://devpost.com/software/botscape'>DevPost</a> or watch the <a href='https://www.youtube.com/watch?v=b_m1uPYl8UM'>presentation I gave at Hack the North</a>."
     ],
     "language": "Node.js",
     "date": "September 2014"
@@ -54,7 +68,7 @@
       "We attempted to design the challenge at the level of high school students. However, we overshot the difficulty level; the game has a large branching factor and games can be hundreds of turns long.",
       "Spleef AI Challenge is based on the Minecraft minigame Spleef, in which players attempt to break the blocks under other players' feet and try to be the last one standing on the platform. Our implementation also has the tiebreaking condition that if nobody can reach each other, the player with the largest accessible area wins.",
       "The fairly simple rules result in some surprisingly emergent gameplay, as bots try to balance claiming territory with safety.",
-      "You can check out <a href='https://spleefchallenge.com'>Spleef AI Challenge</a> in action on its website."
+      "Unfortunately, Spleef Challenge is no longer running."
     ],
     "language": "Python",
     "date": "March 2014"
