@@ -7,8 +7,8 @@
     "description": [
       "Liar's Dice is a fun dice game most famous for a minute-long scene in Pirates of the Caribbean: Dead Man's Chest. After doing some reading about mental poker, I devised a commitment protocol that would allow Liar's Dice to be played without a trusted server managing the dice rolling.",
       "Originally, I implemented my protocol in the form of a simple command-line Python app. At Hack the North, I rewrote the entire app with a far more usable JavaScript frontend.",
-      "The server uses Python and Redis and is currently running on Google Cloud Platform. By a back-of-an-envelope calculation, the server should support at least 1500 concurrent users on a single free-tier server. The implementation also supports multiple servers.",
-      "You can play Liar's Dice at <a href='http://liarsdice.co'>liarsdice.co</a>, view the source code on <a href='https://github.com/Semicolo314/liars-dice>GitHub</a>, or take a look at the <a href='http://devpost.com/software/liars-dice'>DevPost</a> submission."
+      "The server uses Python and Redis and is currently running on Google Cloud Platform. By a back-of-an-envelope calculation, the server should support at least 1500 concurrent users with a single server. The implementation also supports multiple servers.",
+      "You can play Liar's Dice at <a href='http://liarsdice.co'>liarsdice.co</a>, view the source code on <a href='https://github.com/Semicolon314/liars-dice'>GitHub</a>, or take a look at the <a href='http://devpost.com/software/liars-dice'>DevPost</a> submission."
     ],
     "language": "Python",
     "date": "September 2015"
